@@ -135,7 +135,7 @@ def generate_html(company, name, year, kms, fuel, price):
     return f"""
     <html>
     <body style="font-family: Arial; padding: 20px;">
-        <h1 style="text-align:center;">🚗 Car Price Report</h1>
+        <h1 style="text-align:center;"> Car Price Report</h1>
         <hr>
         <p><b>Company:</b> {company}</p>
         <p><b>Model:</b> {name}</p>
@@ -143,7 +143,7 @@ def generate_html(company, name, year, kms, fuel, price):
         <p><b>KMs Driven:</b> {kms}</p>
         <p><b>Fuel Type:</b> {fuel}</p>
         <hr>
-        <h2 style="color:green;">Estimated Price: ₹ {price:,}</h2>
+        <h2 style="color:green;">Estimated Price: ₹ {price:}</h2>
     </body>
     </html>
     """
