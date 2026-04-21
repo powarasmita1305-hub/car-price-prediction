@@ -3,7 +3,7 @@ import pandas as pd
 import pickle as pkl
 import base64
 
-# ---------------- PAGE CONFIG ----------------
+# ---------------- PAGE CONFIG ---------------
 st.set_page_config(
     page_title="Car Price Predictor",
     page_icon="🚗",
