@@ -193,6 +193,5 @@ if predict_btn:
 # ---------------- FOOTER ----------------
 st.markdown("""
 <hr>
-<<<<<<< HEAD
 <p style='text-align:center; color:white;'>Made with ❤️ using Streamlit</p>
 """, unsafe_allow_html=True)
